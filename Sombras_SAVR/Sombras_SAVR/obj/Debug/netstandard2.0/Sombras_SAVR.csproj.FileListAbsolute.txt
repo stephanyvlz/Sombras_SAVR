@@ -1,0 +1,16 @@
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\bin\Debug\netstandard2.0\Sombras_SAVR.deps.json
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\bin\Debug\netstandard2.0\Sombras_SAVR.dll
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\bin\Debug\netstandard2.0\ref\Sombras_SAVR.dll
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\bin\Debug\netstandard2.0\Sombras_SAVR.pdb
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombras_SAVR.csproj.AssemblyReference.cache
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombras_SAVR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombra.xaml.g.cs
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombras_SAVR.AssemblyInfoInputs.cache
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombras_SAVR.AssemblyInfo.cs
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombras_SAVR.csproj.CoreCompileInputs.cache
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombras_SAVR.dll
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\refint\Sombras_SAVR.dll
+D:\Archivos Phany\4toCuatrimestre\Sombras_SAVR\Sombras_SAVR\Sombras_SAVR\obj\Debug\netstandard2.0\Sombras_SAVR.pdb

@@ -10,7 +10,7 @@ namespace Sombras_SAVR
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Sombra();
         }
 
         protected override void OnStart()

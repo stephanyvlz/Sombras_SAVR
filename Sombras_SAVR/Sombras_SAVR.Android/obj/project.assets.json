@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v13.0": {
+      "Sharpnado.Shadows/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ThomasLevesque.WeakEvent": "4.1.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Sharpnado.Shadows.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid10/Sharpnado.Shadows.dll": {
+            "related": ".Android.pdb;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Sharpnado.Shadows.Android.dll": {
+            "related": ".pdb"
+          },
+          "lib/MonoAndroid10/Sharpnado.Shadows.dll": {
+            "related": ".Android.pdb;.pdb"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -9,6 +32,19 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "ThomasLevesque.WeakEvent/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -1780,6 +1816,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Sharpnado.Shadows": "1.2.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -1793,6 +1830,37 @@
     }
   },
   "libraries": {
+    "Sharpnado.Shadows/1.2.1": {
+      "sha512": "ERDGqFJIZpXRNnB/zTg4+cL/Uw73UTtmGEl0Og6pNTWN+NLh254rsVPY+sQ4Hi6qhvmsFgsTEOh7v3iRWT8egw==",
+      "type": "package",
+      "path": "sharpnado.shadows/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "images/shadows.png",
+        "lib/MonoAndroid10/Sharpnado.Shadows.Android.dll",
+        "lib/MonoAndroid10/Sharpnado.Shadows.Android.pdb",
+        "lib/MonoAndroid10/Sharpnado.Shadows.dll",
+        "lib/MonoAndroid10/Sharpnado.Shadows.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.dll",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.pdb",
+        "lib/netstandard2.0/Sharpnado.Shadows.dll",
+        "lib/netstandard2.0/Sharpnado.Shadows.pdb",
+        "lib/tizen40/Sharpnado.Shadows.Tizen.dll",
+        "lib/tizen40/Sharpnado.Shadows.Tizen.pdb",
+        "lib/tizen40/Sharpnado.Shadows.dll",
+        "lib/tizen40/Sharpnado.Shadows.pdb",
+        "lib/uap10.0.16299/Sharpnado.Shadows.UWP.dll",
+        "lib/uap10.0.16299/Sharpnado.Shadows.UWP.pdb",
+        "lib/uap10.0.16299/Sharpnado.Shadows.dll",
+        "lib/uap10.0.16299/Sharpnado.Shadows.pdb",
+        "sharpnado.shadows.1.2.1.nupkg.sha512",
+        "sharpnado.shadows.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1838,6 +1906,30 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "ThomasLevesque.WeakEvent/4.1.0": {
+      "sha512": "mcp8UoYXWvPmud7UJmREULQLxLmX6SYet2pyZUHpcmIiku3JoqEilPUu9QeUZrV7fOCp0Pfva/VDhG+n3afGyg==",
+      "type": "package",
+      "path": "thomaslevesque.weakevent/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assets/weakevent.png",
+        "lib/net40/WeakEvent.dll",
+        "lib/net40/WeakEvent.pdb",
+        "lib/net40/WeakEvent.xml",
+        "lib/net45/WeakEvent.dll",
+        "lib/net45/WeakEvent.pdb",
+        "lib/net45/WeakEvent.xml",
+        "lib/netstandard1.3/WeakEvent.dll",
+        "lib/netstandard1.3/WeakEvent.pdb",
+        "lib/netstandard1.3/WeakEvent.xml",
+        "lib/netstandard2.0/WeakEvent.dll",
+        "lib/netstandard2.0/WeakEvent.pdb",
+        "lib/netstandard2.0/WeakEvent.xml",
+        "thomaslevesque.weakevent.4.1.0.nupkg.sha512",
+        "thomaslevesque.weakevent.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -3402,30 +3494,31 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v13.0": [
+      "Sharpnado.Shadows >= 1.2.1",
       "Sombras_SAVR >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stephany Vlz\\.nuget\\packages\\": {},
+    "C:\\Users\\cd18\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
+      "projectUniqueName": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
       "projectName": "Sombras_SAVR.Android",
-      "projectPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
-      "packagesPath": "C:\\Users\\Stephany Vlz\\.nuget\\packages\\",
-      "outputPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\obj\\",
+      "projectPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
+      "packagesPath": "C:\\Users\\cd18\\.nuget\\packages\\",
+      "outputPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stephany Vlz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cd18\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3439,21 +3532,20 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj": {
-              "projectPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj"
+            "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj": {
+              "projectPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj"
             }
           }
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "monoandroid13.0": {
         "dependencies": {
+          "Sharpnado.Shadows": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

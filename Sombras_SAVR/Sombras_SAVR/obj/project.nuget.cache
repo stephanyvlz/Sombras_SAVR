@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Yh8O18zsyRc=",
+  "dgSpecHash": "fCUkhnFYSsTqr3nCR9/jb9p3L5i6LsEUrnyl+gh7MiaOn4Hi4D8t6aOeVfWm50dhZaE9P8Tlan7gZPyKF/0cYQ==",
   "success": true,
-  "projectFilePath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj",
+  "projectFilePath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Stephany Vlz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Stephany Vlz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Stephany Vlz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Stephany Vlz\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Stephany Vlz\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\cd18\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cd18\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\cd18\\.nuget\\packages\\sharpnado.shadows\\1.2.1\\sharpnado.shadows.1.2.1.nupkg.sha512",
+    "C:\\Users\\cd18\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\cd18\\.nuget\\packages\\thomaslevesque.weakevent\\4.1.0\\thomaslevesque.weakevent.4.1.0.nupkg.sha512",
+    "C:\\Users\\cd18\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\cd18\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

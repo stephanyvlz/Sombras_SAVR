@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj": {}
+    "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj": {}
   },
   "projects": {
-    "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj": {
+    "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
+        "projectUniqueName": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
         "projectName": "Sombras_SAVR.Android",
-        "projectPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
-        "packagesPath": "C:\\Users\\Stephany Vlz\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\obj\\",
+        "projectPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\Sombras_SAVR.Android.csproj",
+        "packagesPath": "C:\\Users\\cd18\\.nuget\\packages\\",
+        "outputPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Stephany Vlz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cd18\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,21 +32,20 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj": {
-                "projectPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj"
+              "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj": {
+                "projectPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj"
               }
             }
           }
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "monoandroid13.0": {
           "dependencies": {
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -59,20 +58,20 @@
         }
       }
     },
-    "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj": {
+    "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj",
+        "projectUniqueName": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj",
         "projectName": "Sombras_SAVR",
-        "projectPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj",
-        "packagesPath": "C:\\Users\\Stephany Vlz\\.nuget\\packages\\",
-        "outputPath": "E:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\obj\\",
+        "projectPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR.csproj",
+        "packagesPath": "C:\\Users\\cd18\\.nuget\\packages\\",
+        "outputPath": "D:\\Archivos Phany\\4toCuatrimestre\\Sombras_SAVR\\Sombras_SAVR\\Sombras_SAVR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Stephany Vlz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cd18\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -94,11 +93,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -110,6 +104,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -131,7 +129,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
